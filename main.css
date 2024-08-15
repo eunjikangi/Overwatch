@@ -9,7 +9,7 @@ body {
   padding: 50px 0;
 }
 .heroes {
-  display: flex;
+  display: flex;  
   flex-wrap: wrap;
   justify-content: center;
   max-width: 660px;
