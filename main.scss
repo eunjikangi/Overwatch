@@ -49,12 +49,10 @@ body {
     background-repeat: no-repeat;
     background-size: 90px;
   }
-}
 
-@for $index from 1 through 32 {
-  .hero:nth-child(#{$index}) {
-    .image {
-      background-image: url("#{$url}/hero#{$index}.png");
+  @for $index from 1 through 32 {
+    &:nth-child(#{$index}) .image {
+        background-image: url("#{$url}/hero#{$index}.png"); 
     }
   }
 }
